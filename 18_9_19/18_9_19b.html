@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+   <title>JSON Example 2</title>
+</head>
+<body>
+    <p><center>Access an array value of a JSON object.</center></p>
+    <center><p id="demo"></p></center>
+    
+
+    <script>
+        var myObj, x;
+        myObj = {
+            "name":"The Shelby Family",
+            "year":1919,
+            "members":["Arthur","Thomas","Ada","John","Finn","Polly","Michael"]
+        };
+        x = myObj.members[0];
+        document.getElementById("demo").innerHTML = x;
+    </script>
+</body>
+</html>

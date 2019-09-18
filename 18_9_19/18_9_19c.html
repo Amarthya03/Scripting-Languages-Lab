@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>JSON Example 3</title>
+</head>
+<body>
+    <p>Looping through arrays inside arrays</p>
+    <p><center>Families in Westeros</center></p>
+    <center>
+            <p id="demo"></p>
+    </center>
+    <script>
+        var myObj, i, j, x = "";
+        myObj = {
+            "country":"Westeros",
+            "houses":[
+                {"name":"Stark","members":["Robb","Jon","Sansa","Arya","Bran","Rickon"]},
+                {"name":"Lannister","members":["Jamie","Cersei","Tyrion"]},
+                {"name":"Targaryen","members":["Rhaegar","Viserys","Daenerys"]}
+            ]
+        };
+
+        for (i in myObj.houses) {
+            x += "<h2>" + myObj.houses[i].name + "</h2>";
+            for (j in myObj.houses[i].members) {
+                x += "<h3>" + myObj.houses[i].members[j] + "</h3>"
+            }
+            "<br>"
+        }
+        document.getElementById("demo").innerHTML = x;
+    </script>
+</body>
+</html>
