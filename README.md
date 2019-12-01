@@ -35,5 +35,8 @@ _(The above questions discussed in Python are solved using JavaScript also.)_
 
 10. **Data Science 2** - Data visualisation and analysis using [Students' Performance Dataset](https://www.kaggle.com/roshansharma/student-performance-analysis)
 
+11. **Data Science Assignment** - Data analysis and visualizaion on:
++ [Black Friday Dataset](https://www.kaggle.com/roshansharma/black-friday)
++ [Iris Dataset](https://www.kaggle.com/saurabh00007/iriscsv)
 
 12. **Flask Assignment** - A florist's web app, using Flask as backend.
