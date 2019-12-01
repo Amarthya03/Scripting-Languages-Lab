@@ -34,3 +34,6 @@ _(The above questions discussed in Python are solved using JavaScript also.)_
 9. **Data Science 1** - Data visualisation using [Titanic Dataset](https://www.kaggle.com/garrettrlynch/titaniccsv)
 
 10. **Data Science 2** - Data visualisation and analysis using [Students' Performance Dataset](https://www.kaggle.com/roshansharma/student-performance-analysis)
+
+
+12. **Flask Assignment** - A florist's web app, using Flask as backend.
