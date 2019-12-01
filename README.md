@@ -40,3 +40,7 @@ _(The above questions discussed in Python are solved using JavaScript also.)_
 + [Iris Dataset](https://www.kaggle.com/saurabh00007/iriscsv)
 
 12. **Flask Assignment** - A florist's web app, using Flask as backend.
+
+13. **Flask Fundamentals** - Basic web-apps for
++ ATM
++ Bakery
